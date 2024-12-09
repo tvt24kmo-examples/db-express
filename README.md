@@ -6,9 +6,9 @@ Sovellus perustuu sivun https://peatutor.com/express/Examples/mysql_index.php es
 
 <ol>
 <li>Kloonaa tämä repo</li>
-<li>Siirry kansioon db-express ja anna komento **npm install**</li>
+<li>Siirry kansioon db-express ja anna komento <b>npm install</b></li>
 <li>Luo tietokanta ja käyttäjä MySQL-palvelimeesi suorittamalla alla oleva sql-koodi</li>
-<li>Käynnistä sovellus komennolla **npm start** tai **nodemon ./bin/www**</li>
+<li>Käynnistä sovellus komennolla <b>npm start</b> tai <b>nodemon ./bin/www</b></li>
 </ol>
 
 <pre>
