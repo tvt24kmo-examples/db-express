@@ -35,3 +35,17 @@ CREATE TABLE user(
   UNIQUE (username)
 );
 </pre>
+
+## .env
+
+Tiedostoa .env ei kannata viedä julkiseen GitRepoon, koska GitHub alkaa lähettämään varoituksia.
+
+Tässä sovelluksessa siellä on rivi:
+<pre>
+MYSQL_SERVER=mysql://netuser:netpass@localhost:3306/netdb
+</pre>
+
+Ja siksi database.js tiedostossa on rivi:
+<pre>
+const myConnectionString = process.env.MYSQL_SERVER;
+</pre>
